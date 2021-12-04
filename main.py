@@ -6,7 +6,14 @@ Builder.load_file('frontend.kv')
 
 
 class CameraScreen(Screen):
-    pass
+    def start(self):
+        pass
+
+    def stop(self):
+        pass
+
+    def capture(self):
+        pass
 
 
 class ImageScreen(Screen):
