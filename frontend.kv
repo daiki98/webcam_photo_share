@@ -10,8 +10,8 @@
             text: 'Start Camera'
             on_press: root.start() if root.ids.camera.play == False else root.stop()
         Button:
-
             text: 'Capture'
+            on_press: root.capture()
 <RootWidget>:
     CameraScreen:
         id: camera_screen
