@@ -9,7 +9,7 @@ Builder.load_file('frontend.kv')
 
 class CameraScreen(Screen):
     def start(self):
-        pass
+        self.ids.camera.play = True
 
     def stop(self):
         pass
